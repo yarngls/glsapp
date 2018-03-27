@@ -2,6 +2,7 @@
 	echo "hello my server";	
 	echo "<br>";
 	$var_ = " my first variable";
+	echo "<br>";
 
 	echo  $var_;
 
@@ -13,7 +14,7 @@
 	$db_name = "snirh";
 
 	$connection = mysqli_connect($db_host,$db_user,$db_password,$db_name);
-
+	echo "<br>";
 	var_dump($connection);	
 
 ?>
