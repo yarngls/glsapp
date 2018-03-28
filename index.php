@@ -1,7 +1,7 @@
 <?php
 	echo "hello my server";	
 	echo "<br>";
-	$var_ = " my first variable";
+	$var_ = "my first variable";
 	echo "<br>";
 
 	echo  $var_;
